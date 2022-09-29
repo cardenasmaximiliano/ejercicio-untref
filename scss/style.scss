@@ -1,0 +1,32 @@
+.anime-pelota{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 4px solid black;
+    background-color: lightblue;
+    animation: pelota .4s inifinite alternate linear;
+}
+.caja{
+    margin-bottom: -70px;
+    animation: caja 3s infinite alternate linear;
+    background-color: lightcoral
+}
+
+@keyframes pelota{
+    from{
+        transform: translateY(0px);
+    
+    }
+    to{
+        transform: translateY(150px);
+    }
+}
+@keyframes caja{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(700px);
+    }
+}
+
