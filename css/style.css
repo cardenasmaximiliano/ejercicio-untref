@@ -12,7 +12,7 @@
   margin-bottom: -70px;
   -webkit-animation: caja 3s infinite alternate linear;
           animation: caja 3s infinite alternate linear;
-  background-color: lightcoral;
+ 
 }
 
 @-webkit-keyframes pelota {
